@@ -1,4 +1,4 @@
-# Generalized Oracle & Prediction Market System AirDao
+# Custom Generalized Oracle & Prediction Market System (Polymarket)
 
 This project demonstrates a simple decentralized oracle network (DON) where users can submit off-chain source code for execution by oracle nodes. The system allows smart contracts to interact with external data via oracle nodes, which fetch, execute, and return results to the requesting contract.
 
@@ -90,7 +90,7 @@ This will call the callback function in **PredictionMarket** and update the `pre
 
 ### Registering a Request:
 ```solidity
-string memory sourceCodeURL = "https://ipfs.io/ipfs/QmYourSourceCodeHash";
+string memory sourceCodeURL = "https://ipfs.io/ipfs/Qm<>";
 bytes memory callbackSignature = hex"03e78d5d";  // Encoded callback signature
 ```
 
