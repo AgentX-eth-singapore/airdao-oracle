@@ -3,7 +3,7 @@ require("hardhat-deploy");
 require("dotenv").config(); // For environment variables
 
 module.exports = {
-  solidity: "0.8.27",
+  solidity: "0.8.19",
   namedAccounts: {
     deployer: {
       default: 0, // The first account in the mnemonic will be used as deployer
