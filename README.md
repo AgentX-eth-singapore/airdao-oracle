@@ -4,7 +4,8 @@ This project demonstrates a simple decentralized oracle network (DON) where user
 
 ## Project Structure
 
-<img width="942" alt="Screenshot 2024-09-22 at 5 09 51 AM" src="https://github.com/user-attachments/assets/d3a33ec0-0e22-4023-9583-e456027917b6">
+<img width="1485" alt="Screenshot 2024-09-22 at 5 12 51 AM" src="https://github.com/user-attachments/assets/4ffad9ec-2d2a-43f6-b97f-125670806cc5">
+
 
 ### 1. **GeneralizedOracle.sol**
 This contract allows users to register a request for off-chain code execution by providing:
