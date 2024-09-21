@@ -1,16 +1,22 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("hardhat-deploy");
+require("dotenv").config(); // For environment variables
 
-/** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.24",
+  solidity: "0.8.27",
+  namedAccounts: {
+    deployer: {
+      default: 0, // The first account in the mnemonic will be used as deployer
+    },
+  },
   networks: {
     hardhat: {
+      chainId: 1337, // Local Hardhat network
     },
-    airdao: {
-      url: "https://testnet-rpc.airdao.io/",
-      accounts: ["private-key"],
-      chainId: 22040
-    }
+    ambrosusMainnet: {
+      url: process.env.AMBROSUS_RPC_URL || "https://network.ambrosus.io/",
+      chainId: 16718, // AirDAO Ambrosus Mainnet
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+    },
   },
-
 };
