@@ -94,3 +94,25 @@ string memory sourceCodeURL = "https://ipfs.io/ipfs/Qm<>";
 bytes memory callbackSignature = hex"03e78d5d";  // Encoded callback signature
 ```
 
+### Morph Contracts
+
+1. **mockUsdc**  
+   [View on Morph Explorer](https://explorer-holesky.morphl2.io/address/0x632654Be7eA0625DEa3D12857887Acb76dc3AE1b?tab=contract)
+
+2. **Predict and Earn (Polymarket)**  
+   [View on Morph Explorer](https://explorer-holesky.morphl2.io/address/0xA524319d310fa96AAf6E25F8af729587C2DEaE8a)
+
+3. **Generalized Oracle**  
+   [View on Morph Explorer](https://explorer-holesky.morphl2.io/address/0xf8B4f97d5AD7f3754a0d67E674b9692AA518514F?tab=txs)
+
+### AirDAO Contracts
+
+1. **Generalized Oracle**  
+   [View on AirDAO Explorer](https://airdao.io/explorer/address/0x8fB873e697a106e7Dd819547587AcAEf0840E835/)
+
+2. **MockUsdc***  
+   [View on AirDAO Explorer](https://airdao.io/explorer/address/0x54d562B3a8b680F8a21D721d22f0BB58A3787555/)
+
+3. **Predict and Earn**  
+   [View on AirDAO Explorer](https://airdao.io/explorer/address/0x97363b585B6540038993Cc8D2443F902A7E3a69D/)
+
